@@ -6,4 +6,4 @@
 <br>
 <br>
 リンクをSleipnirから踏むとインストール↓<br>
-https://raw.githubusercontent.com/kuuoonn/Pixiv_Ads_Remover/26624cc01111a5998fd0403ada1b586adb45f20e/Pixiv%20Ads%20Remover.slex.js
+https://raw.githubusercontent.com/kuuoonn/Pixiv_Ads_Remover/refs/heads/main/Pixiv%20Ads%20Remover.slex.js
