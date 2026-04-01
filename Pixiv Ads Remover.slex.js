@@ -2,17 +2,17 @@
 // @name            Pixiv Ads Remover
 // @author          kuon
 // @description     Ads Remover for Pixiv.
-// @description     素人自作、自分用Pixivの広告削除エクステンション
-// @version         1
+// @description:ja  素人自作、自分用Pixivの広告削除エクステンション
 // @include         https://www.pixiv.net/*
+// @version         1.0
 // @require         jquery
 // ==/UserScript==
 
 function removeAds() {
-  $('div[id^="adsdk--"]').remove();
+  $('div[id^="adsdk--"]').hide();
 }
 
 setTimeout(() => {
   removeAds();
   setInterval(removeAds, 1000);
-}, 10000);
+}, 1000);
