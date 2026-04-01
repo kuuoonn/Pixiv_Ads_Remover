@@ -15,4 +15,4 @@ function removeAds() {
 setTimeout(() => {
   removeAds();
   setInterval(removeAds, 1000);
-}, 2000);
+}, 3000);
